@@ -26,17 +26,11 @@ function App() {
   return (
     <>
       <h1>Labyrintenfinale 2024 Kometkameratene</h1>
-      <h2>Deltakere:</h2>
+      <h2>Deltakere?</h2>
       <div>
-        {participants.map(participant => <p key={participant}>{participant}</p>)}
+        <img src='src/assets/Komet_meme.jpg'></img>
       </div>
 
-      <div className="participants-list">
-        <label>
-          <input value={newParticipant} onChange={(e) => setNewParticipant(e.target.value)} />
-        </label>
-        <button className="new-participant-button" onClick={saveNewParticipant}>Legg til ny deltaker</button>
-      </div>
     </>
   )
 }
