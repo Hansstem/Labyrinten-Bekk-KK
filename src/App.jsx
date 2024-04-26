@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <h1>Labyrintenfinale 2024</h1>
+      <h1>Labyrintenfinale 2024 Kometkameratene</h1>
       <h2>Deltakere:</h2>
       <div>
         {participants.map(participant => <p key={participant}>{participant}</p>)}
