@@ -6,6 +6,8 @@ import "./App.css";
 import React from "react";
 import TestPage from "./pages/TestPage";
 import { RecoilRoot } from "recoil";
+import "./App.css";
+import LandingPage from "./pages/LandingPage";
 
 const contentType = new Headers();
 contentType.append("Content-Type", "application/json");
@@ -39,7 +41,7 @@ function App() {
 
           <div className="pt-10">
             {" "}
-            <TestPage />{" "}
+            <LandingPage />
           </div>
         </RecoilRoot>
       </Router>

@@ -3,7 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #CDE6FF;
 }
+
 
 .participants-list {
   display: flex;
