@@ -1,0 +1,37 @@
+/* src/components/Footer.module.css */
+.footer {
+    background-color: #CDE6FF;
+    color: #636363;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .links {
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    margin: 0 15px;
+    color: #636363;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyRight {
+    font-size: 0.8rem;
+    color: #636363;
+  }
+  
