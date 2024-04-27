@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
+import TestComponent from './components/TestComponent'
+import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessary
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import TestPage from './pages/TestPage'
 import DiscoverPage from './pages/DiscoverPage';
+import LandingPage from './pages/LandingPage'
 
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
@@ -29,7 +31,10 @@ function App() {
   return (
     <>
       <Router>
-        <DiscoverPage />
+        <Navbar />
+        <div className='pt-10'>
+          <LandingPage />
+        </div>
       </Router>
     </>
   )
