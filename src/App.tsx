@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import TestComponent from './components/TestComponent'
+import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessary
 
 import './App.css'
 import React from 'react'
@@ -25,15 +26,14 @@ function App() {
   }, [])
 
   return (
-    <>
-      <h1>Labyrintenfinale 2024 Kometkameratene</h1>
-      <h2>Deltakere?</h2>
-      <div>
-        <TestComponent />
-      </div>
-
-    </>
-  )
+    <div className="App">
+      <Navbar /> 
+      <main>
+        {/* Other components or content can go here */}
+        {/* <h1>Welcome to the Site!</h1> */}
+      </main>
+    </div>
+  );
 }
 
 export default App
