@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import TestComponent from "./components/TestComponent";
+import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessary
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import React from "react";
@@ -33,7 +35,12 @@ function App() {
     <>
       <Router>
         <RecoilRoot>
-          <TestPage />
+          <Navbar />
+
+          <div className="pt-10">
+            {" "}
+            <TestPage />{" "}
+          </div>
         </RecoilRoot>
       </Router>
     </>
