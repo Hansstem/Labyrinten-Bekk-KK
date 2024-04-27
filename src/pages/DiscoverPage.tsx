@@ -27,11 +27,12 @@ export default function DiscoverPage() {
 
   useEffect(() => {
     const filteredData = data.filter((verv: { categories: any[] }) => {
+      console.log(selectedLocations);
       return (
         selectedLocations.every((location) => {
           return (
             verv.categories.find((cat) => cat.category_name === "Location")
-              ?.value === location.id
+              ?.value === location.label
           );
         }) &&
         selectedInterests.every((interest) => {
@@ -71,7 +72,12 @@ export default function DiscoverPage() {
       );
     });
     setVervData(filteredData);
-  }, [selectedLocations, selectedInterests, selectedFields, selectedHours]);
+  }, [
+    selectedLocations.length,
+    selectedInterests.length,
+    selectedFields.length,
+    selectedHours.length,
+  ]);
 
   return (
     <div className="flex-row">
