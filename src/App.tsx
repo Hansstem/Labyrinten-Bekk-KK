@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import TestComponent from './components/TestComponent'
 import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessary
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
+import TestPage from './pages/TestPage'
+
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
 
@@ -26,14 +28,13 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
-      <Navbar /> 
-      <main>
-        {/* Other components or content can go here */}
-        {/* <h1>Welcome to the Site!</h1> */}
-      </main>
-    </div>
-  );
+    <>
+      <Router>
+        <Navbar />
+        <TestPage />
+      </Router>
+    </>
+  )
 }
 
 export default App
