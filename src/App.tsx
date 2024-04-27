@@ -39,8 +39,7 @@ function App() {
       <Router>
         <RecoilRoot>
           <Navbar />
-
-          <DiscoverPage />
+          <LandingPage />
         </RecoilRoot>
       </Router>
     </>
