@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessar
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
+import DiscoverPage from './pages/DiscoverPage';
 import LandingPage from './pages/LandingPage'
 
 const contentType = new Headers()
@@ -31,7 +32,9 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div className='pt-10'> <LandingPage /> </div>
+        <div className='pt-10'>
+          <LandingPage />
+        </div>
       </Router>
     </>
   )

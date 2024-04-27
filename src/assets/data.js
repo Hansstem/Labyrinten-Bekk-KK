@@ -1,9 +1,10 @@
 const data = [
     {
-      "logo_image_file": "brain_logo.png",
+      "logo": "brain_logo.png",
       "name": "Brain",
       "description": "Brain is a student organization dedicated to promoting neuroscience education and research among students.",
-      "link": "https://www.brain.org",
+      "link": "https://www.brainntnu.no",
+      "accentColor": "#0B152C",
       "categories": [
         {
           "category_name": "Location",
@@ -24,10 +25,11 @@ const data = [
       ]
     },
     {
-        "logo_image_file": "ascend_logo.png",
+        "logo": "ascend_logo.png",
         "name": "Ascend",
         "description": "Ascend is a student organization focused on personal and professional development, particularly for underrepresented communities.",
-        "link": "https://www.ascend.org",
+        "link": "https://www.ascendntnu.no",
+        "accentColor": "#000000",
         "categories": [
           {
             "category_name": "Location",
@@ -52,11 +54,12 @@ const data = [
         "logo_image_file": "studentsamfundet_logo.png",
         "name": "Studentsamfundet",
         "description": "Studentsamfundet is a student union dedicated to organizing social events, cultural activities, and advocacy for student rights.",
-        "link": "https://www.studentsamfundet.org",
+        "link": "https://www.samfundet.no",
+        "accentColor": "#A03133",
         "categories": [
           {
             "category_name": "Location",
-            "value": "Bergen"
+            "value": "Trondheim"
           },
           {
             "category_name": "Interest",
