@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessar
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import TestPage from './pages/TestPage'
+import LandingPage from './pages/LandingPage'
 
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
@@ -31,7 +31,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <div className='pt-10'> <TestPage /> </div>
+        <div className='pt-10'> <LandingPage /> </div>
       </Router>
     </>
   )
