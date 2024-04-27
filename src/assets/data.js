@@ -45,7 +45,7 @@ const data = [
           },
           {
             "category_name": "Hours Per Week",
-            "value": "5"
+            "value": "15"
           }
         ]
       },
@@ -71,7 +71,7 @@ const data = [
           },
           {
             "category_name": "Hours Per Week",
-            "value": "10"
+            "value": "24"
           }
         ]
       }
