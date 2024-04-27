@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import TestComponent from "./components/TestComponent";
-import Navbar from "./components/Navbar/Navbar"; // Adjust this path as necessary
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import React from "react";
@@ -9,6 +9,7 @@ import { RecoilRoot } from "recoil";
 import "./App.css";
 import LandingPage from "./pages/LandingPage";
 import DiscoverPage from "./pages/DiscoverPage";
+import Footer from "./components/Footer/Footer";
 
 const contentType = new Headers();
 contentType.append("Content-Type", "application/json");
@@ -41,6 +42,7 @@ function App() {
           <Navbar />
           <LandingPage />
           <DiscoverPage />
+          <Footer />
         </RecoilRoot>
       </Router>
     </>
