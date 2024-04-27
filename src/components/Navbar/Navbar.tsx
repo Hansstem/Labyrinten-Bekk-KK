@@ -20,7 +20,7 @@ function Navbar() {
         <nav className={`${styles.navbar}`}>
           {/* logo */}
           <a href="#home" className={`${styles.logo}`}>
-            <img className="max-h-12" src={logo} alt="logo" />
+            <img className="max-h-16 pb-5" src={logo} alt="logo" />
           </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <li onClick={removeActive}>
