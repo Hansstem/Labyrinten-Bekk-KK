@@ -1,5 +1,5 @@
 import React from "react";
-import {useNavigation} from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 import {
   Card,
   CardContent,
@@ -12,6 +12,7 @@ import {Button} from "../components/ui/button"
 import frontIllustration from "../assets/frontIllustration.svg"
 
 export default function LandingPage() {
+  const navigate = useNavigate();
   return (
     <div className="container mx-auto p-10">
       {/* Main Feature Card */}
@@ -28,7 +29,7 @@ export default function LandingPage() {
                 <p>Bla igjennom alle verv tiljengelige på ditt studiested, og filtrer på arbeidsmengde, oppgaver og fagområde</p>
               </CardContent>
               <CardFooter className="flex justify-end pt-32">
-                <Button> Utforsk</Button>
+                <Button onClick={() => navigate('/discover')}> Utforsk</Button>
               </CardFooter>
             </div>
           </Card>
