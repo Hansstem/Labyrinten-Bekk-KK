@@ -10,11 +10,31 @@ import {
 } from "../components/ui/card"
 import {Button} from "../components/ui/button"
 import frontIllustration from "../assets/frontIllustration.svg"
+import pils from "../assets/pils.jpg"
 
 export default function LandingPage() {
   const navigate = useNavigate();
   return (
     <div className="container mx-auto p-10">
+      {/* START køddekort */}
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-6">
+        
+        <div className="flex-1">
+          <Card className="flex flex-row p-8 shadow-lg rounded-2xl">
+            <img className="w-full md:w-1/2 lg:w-1/3" src={pils} alt="Front Illustration" />
+            <div className="flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-left text-8xl">Pils enjoyed: <b>8</b></CardTitle>
+              </CardHeader>
+              <CardContent className="text-left text-4xl">
+                <p>Nam, det var digg as</p>
+              </CardContent>
+            
+            </div>
+          </Card>
+        </div>
+      </div>
+      {/* END køddekort */}
       {/* Main Feature Card */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         
