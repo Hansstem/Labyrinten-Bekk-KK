@@ -40,6 +40,7 @@ function App() {
         <RecoilRoot>
           <Navbar />
           <LandingPage />
+          <DiscoverPage />
         </RecoilRoot>
       </Router>
     </>
