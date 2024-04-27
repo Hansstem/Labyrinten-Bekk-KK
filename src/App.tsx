@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
+import TestComponent from './components/TestComponent'
 
 import './App.css'
-import imgg from './assets/Komet_meme.jpg' 
+import React from 'react'
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
 
@@ -28,7 +29,7 @@ function App() {
       <h1>Labyrintenfinale 2024 Kometkameratene</h1>
       <h2>Deltakere?</h2>
       <div>
-        <img src={imgg}></img>
+        <TestComponent />
       </div>
 
     </>
