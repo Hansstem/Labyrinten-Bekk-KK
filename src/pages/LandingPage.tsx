@@ -11,14 +11,14 @@ import {Button} from "../components/ui/button"
 
 import frontIllustration from "../assets/frontIllustration.svg"
 
-export default function TestPage() {
+export default function LandingPage() {
   return (
-    <div>
+    <div className="pt-8">
       <Card className="flex justify-between w-[750px]">
         <img className="w-[350px]" src={frontIllustration} alt="frontIllustration" />
         <div>
   <CardHeader>
-    <CardTitle className="text-left ">Finn det <b>perfekte</b> vervet for deg</CardTitle>
+    <CardTitle className="text-left">Finn det <b>perfekte</b> vervet for deg</CardTitle>
   </CardHeader>
   <CardContent className="flex justify-between text-left">
   <p>Bla igjennom alle verv tiljengelige på ditt studiested, og filtrer på arbeidsmengde, oppgaver og fagområde</p>
