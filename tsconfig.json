@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "esnext",           // Compile to a modern ECMAScript version for better results with Vite
+      "module": "esnext",           // Use esnext modules for better tree-shaking and module optimization
+      "lib": ["dom", "dom.iterable", "esnext"], // Include necessary libraries for the DOM and latest ECMAScript features
+      "jsx": "react",               // Use React for JSX
+      "moduleResolution": "node",   // Use Node.js style module resolution
+      "esModuleInterop": true,      // Enables ES6 module emulation
+      "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+      "strict": true,               // Enable all strict type-checking options
+      "forceConsistentCasingInFileNames": true, // Ensure filenames are consistent in casing
+      "noEmit": true,               // Do not emit outputs (Vite handles it)
+      "skipLibCheck": true,         // Skip type checking of all declaration files (*.d.ts)
+      "resolveJsonModule": true,    // Allow importing '.json' files
+      "isolatedModules": true,      // Ensure each file can be safely transpiled without relying on other imports
+      "baseUrl": ".",               // Base directory to resolve non-absolute module names
+      "paths": {
+        "@/*": ["src/*"]             // Path alias for source files
+      }
+    },
+    "include": [
+        "src/**/*.ts",                // Include all TypeScript files in src
+        "src/**/*.tsx"                 // Include all src files
+    ],
+    "exclude": [
+      "node_modules",               // Exclude the node_modules directory
+      "dist",                       // Exclude the distribution directory
+      "vite.config.ts"              // Exclude Vite configuration file
+    ]
+  }
+  
