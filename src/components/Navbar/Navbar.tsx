@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./Navbar.module.css";
 import React from "react";
+import logo from "../../assets/logo.svg";
 
 function Navbar() {
   // adding the states
@@ -19,7 +20,7 @@ function Navbar() {
         <nav className={`${styles.navbar}`}>
           {/* logo */}
           <a href="#home" className={`${styles.logo}`}>
-            VervMeg.no{" "}
+            <img className="max-h-16 pb-5" src={logo} alt="logo" />
           </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
             <li onClick={removeActive}>
