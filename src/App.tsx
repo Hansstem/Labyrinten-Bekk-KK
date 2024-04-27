@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
 import TestPage from './pages/TestPage'
+import DiscoverPage from './pages/DiscoverPage';
 
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
@@ -28,7 +29,7 @@ function App() {
   return (
     <>
       <Router>
-        <TestPage />
+        <DiscoverPage />
       </Router>
     </>
   )
