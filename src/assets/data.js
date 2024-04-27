@@ -49,8 +49,8 @@ const data = [
   },
   {
     "logo": "studentsamfundet_logo.png",
-    "name": "Studentsamfundet",
-    "description": "Studentsamfundet er en studentforening dedikert til å organisere sosiale arrangementer, kulturelle aktiviteter og påvirkningsarbeid for studentrettigheter.",
+    "name": "Studenter samfundet",
+    "description": "Studenter samfundet er en studentforening dedikert til å organisere sosiale arrangementer, kulturelle aktiviteter og påvirkningsarbeid for studentrettigheter.",
     "link": "https://www.studentsamfundet.org",
     "categories": [
       {
