@@ -31,7 +31,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <TestPage />
+        <div className='pt-10'> <TestPage /> </div>
       </Router>
     </>
   )
