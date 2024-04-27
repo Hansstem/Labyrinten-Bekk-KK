@@ -80,7 +80,7 @@ export default function DiscoverPage() {
   ]);
 
   return (
-    <div className="flex-row">
+    <div className="flex flex-row">
       <FilterComponent />
       <VervList vervList={vervData} />
     </div>

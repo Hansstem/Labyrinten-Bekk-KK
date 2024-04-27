@@ -59,7 +59,7 @@ export default function FilterComponent() {
   };
 
   return (
-    <div>
+    <div className="w-[200px] rounded-md p-4 bg-white/70">
       <b className="flex items-center space-x-2">Lokasjon</b>
       {location.map((item) => (
         <div className="flex items-center space-x-2" key={item.id}>
@@ -99,7 +99,7 @@ export default function FilterComponent() {
         </div>
       ))}
 
-      <b className="flex items-center space-x-2">
+      <b className="flex items-center text-left space-x-2">
         Antall forventet timer i uka
       </b>
       {expectedHour.map((item) => (
