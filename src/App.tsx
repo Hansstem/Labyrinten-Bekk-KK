@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import TestComponent from './components/TestComponent'
-
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css'
 import React from 'react'
+import TestPage from './pages/TestPage'
+
 const contentType = new Headers()
 contentType.append('Content-Type', 'application/json')
 
@@ -26,12 +27,9 @@ function App() {
 
   return (
     <>
-      <h1>Labyrintenfinale 2024 Kometkameratene</h1>
-      <h2>Deltakere?</h2>
-      <div>
-        <TestComponent />
-      </div>
-
+      <Router>
+        <TestPage />
+      </Router>
     </>
   )
 }
