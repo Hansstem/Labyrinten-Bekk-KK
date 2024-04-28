@@ -274,7 +274,7 @@ const data = [
     ]
   },
   {
-    "logo": "tp_logo.png",
+    "logo": "tp_logo_square.png",
     "name": "Teknologiporten NTNU",
     "description": "Teknologiporten NTNU er en studentorganisasjon som tilbyr workshops, kurs og arrangementer innen teknologi og innovasjon for studenter ved NTNU.",
     "link": "https://www.teknologiporten.no",
@@ -297,8 +297,57 @@ const data = [
         "value": "5"
       }
     ]
-  }
-  
+  },
+  {
+    "logo": "samskipsnaden_logo.png",
+    "name": "Samskipsnaden",
+    "description": "Norges arktiske studentsamskipnad er studentenes velferdsorganisasjon som daglig hjelper studentene med bolig, mat & drikke, trening, barnehage, helse og rådgiving.",
+    "link": "https://samskipnaden.no",
+    "accentColor": "#F7941C",
+    "categories": [
+      {
+        "category_name": "Location",
+        "value": "Tromsø"
+      },
+      {
+        "category_name": "Interest",
+        "value": ["sosiale medier", "sosialt"]
+      },
+      {
+        "category_name": "Field",
+        "value": ["servering", "næringsliv"]
+      },
+      {
+        "category_name": "Hours Per Week",
+        "value": "10"
+      }
+    ]
+  },
+  {
+    "logo": "tsi_logo.png",
+    "name": "Tromsøstudentenes idrettslag",
+    "description": "Tromsøstudentenes Idrettslag (TSI) er et fleridrettslag med tilknytning til UiT. Vi har en rekke ulike idretter og aktiviteter, og driver både med lavterkselaktivitet, så vel som aktivitet for viderekomne.",
+    "link": "https://tsidrett.no",
+    "accentColor": "#F13030",
+    "categories": [
+      {
+        "category_name": "Location",
+        "value": "Tromsø"
+      },
+      {
+        "category_name": "Interest",
+        "value": ["sosiale medier", "sosialt"]
+      },
+      {
+        "category_name": "Field",
+        "value": ["næringsliv"]
+      },
+      {
+        "category_name": "Hours Per Week",
+        "value": "5"
+      }
+    ]
+  },
 ];
 
 export default data;

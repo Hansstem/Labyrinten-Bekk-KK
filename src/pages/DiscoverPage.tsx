@@ -80,9 +80,13 @@ export default function DiscoverPage() {
   ]);
 
   return (
-    <div className="flex flex-row">
-      <FilterComponent />
-      <VervList vervList={vervData} />
+    <div className="flex flex-row pt-6">
+      <div className="max-w-max">
+        <FilterComponent />
+      </div>
+      <div className="flex-1 min-w-min">
+        <VervList vervList={vervData} />
+      </div>
     </div>
   );
 }
