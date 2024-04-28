@@ -10,11 +10,23 @@ import {
 } from "../components/ui/card"
 import {Button} from "../components/ui/button"
 import frontIllustration from "../assets/frontIllustration.svg"
+import pils from "../assets/trott.png"
 
 export default function LandingPage() {
   const navigate = useNavigate();
   return (
     <div className="container mx-auto p-10">
+      {/* START køddekort */}
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-6">
+        
+        <div className="flex-1">
+          <Card className="flex p-8 shadow-lg rounded-2xl">
+            <img className="w-fulllg:w-1/3" src={pils} alt="Front Illustration" />
+            
+          </Card>
+        </div>
+      </div>
+      {/* END køddekort */}
       {/* Main Feature Card */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         
