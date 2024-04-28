@@ -41,7 +41,7 @@ export default function VervCard({
       </CardContent>
 
       <Button
-        onClick={() => navigate(link)}
+        onClick={() => navigate(`/${name.toLowerCase().replace(/\s+/g, "-")}`)}
         className="mb-0 mt-auto flex self-stretch rounded-b-lg justify-center"
         style={{ backgroundColor: accentColor }}
       >
