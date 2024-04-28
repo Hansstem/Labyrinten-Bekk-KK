@@ -3,7 +3,8 @@ const data = [
     "logo": "brain_logo.png",
     "name": "Brain",
     "description": "Brain er en studentorganisasjon dedikert til å fremme nevrovitenskapelig utdanning og forskning blant studenter.",
-    "link": "https://www.brain.org",
+    "link": "https://www.brainntnu.no",
+    "accentColor": "#0B152C",
     "categories": [
       {
         "category_name": "Location",
@@ -27,11 +28,12 @@ const data = [
     "logo": "ascend_logo.png",
     "name": "Ascend",
     "description": "Ascend er en studentorganisasjon som fokuserer på personlig og profesjonell utvikling, spesielt for underrepresenterte samfunn.",
-    "link": "https://www.ascend.org",
+    "link": "https://www.ascendntnu.no",
+    "accentColor": "#D5562A",
     "categories": [
       {
         "category_name": "Location",
-        "value": "Oslo"
+        "value": "Trondheim"
       },
       {
         "category_name": "Interest",
@@ -49,13 +51,14 @@ const data = [
   },
   {
     "logo": "studentsamfundet_logo.png",
-    "name": "Studenter samfundet",
-    "description": "Studenter samfundet er en studentforening dedikert til å organisere sosiale arrangementer, kulturelle aktiviteter og påvirkningsarbeid for studentrettigheter.",
-    "link": "https://www.studentsamfundet.org",
+    "name": "Studentersamfundet",
+    "description": "Studentersamfundet er en studentforening dedikert til å organisere sosiale arrangementer, kulturelle aktiviteter og påvirkningsarbeid for studentrettigheter.",
+    "link": "https://www.samfundet.no",
+    "accentColor": "#A03133",
     "categories": [
       {
         "category_name": "Location",
-        "value": "Bergen"
+        "value": "Trondheim"
       },
       {
         "category_name": "Interest",
@@ -73,9 +76,10 @@ const data = [
   },
   {
     "logo": "spark_ntnu_logo.png",
-    "name": "Spark NTN",
-    "description": "Spark NTN er en studentorganisasjon som fremmer entreprenørskap og oppstartsbedrifter ved NTNU.",
+    "name": "Spark NTNU",
+    "description": "Spark NTNU er en studentorganisasjon som fremmer entreprenørskap og oppstartsbedrifter ved NTNU.",
     "link": "https://www.sparkntnu.no",
+    "accentColor": "#EE7522",
     "categories": [
       {
         "category_name": "Location",
@@ -97,9 +101,10 @@ const data = [
   },
   {
     "logo": "start_ntnu_logo.png",
-    "name": "Start NTN",
-    "description": "Start NTN er en studentorganisasjon dedikert til å støtte og utvikle oppstartssamfunnet ved NTNU.",
+    "name": "Start NTNU",
+    "description": "Start NTNU er en studentorganisasjon dedikert til å støtte og utvikle oppstartssamfunnet ved NTNU.",
     "link": "https://www.startntnu.no",
+    "accentColor": "#002349",
     "categories": [
       {
         "category_name": "Location",
@@ -123,6 +128,7 @@ const data = [
     "name": "Revolve",
     "description": "Revolve er en studentorganisasjon dedikert til å fremme bærekraftig mobilitet og kjøretøyutvikling.",
     "link": "https://www.revolve.no",
+    "accentColor": "#F2DF23",
     "categories": [
       {
         "category_name": "Location",
@@ -147,6 +153,7 @@ const data = [
     "name": "Propulse",
     "description": "Propulse er en studentorganisasjon dedikert til å designe og bygge raketter for rakettkonkurranser.",
     "link": "https://www.propulse.no",
+    "accentColor": "#0135F7",
     "categories": [
       {
         "category_name": "Location",
@@ -171,6 +178,7 @@ const data = [
     "name": "Shift Hyperloop",
     "description": "Shift Hyperloop er en studentorganisasjon som utforsker og utvikler hyperloop-teknologi for fremtidens transport.",
     "link": "https://www.shifthyperloop.no",
+    "accentColor": "#038BD3",
     "categories": [
       {
         "category_name": "Location",
@@ -195,6 +203,7 @@ const data = [
     "name": "Realfagshjelpen",
     "description": "Realfagshjelpen er en studentorganisasjon som tilbyr gratis veiledning og hjelp til studenter innen realfag.",
     "link": "https://www.realfagshjelpen.no",
+    "accentColor": "#72BE46",
     "categories": [
       {
         "category_name": "Location",
@@ -219,6 +228,7 @@ const data = [
     "name": "Ent3r",
     "description": "Ent3r er en studentorganisasjon dedikert til å fremme entreprenørskap blant studenter ved å tilby arrangementer og ressurser.",
     "link": "https://www.ent3r.no",
+    "accentColor": "#32ACFF",
     "categories": [
       {
         "category_name": "Location",
@@ -243,6 +253,7 @@ const data = [
     "name": "ISFiT",
     "description": "International Student Festival in Trondheim (ISFiT) er verdens største studentfestival, og arbeider for å fremme dialog, kulturutveksling og fred.",
     "link": "https://www.isfit.org",
+    "accentColor": "#0099CC",
     "categories": [
       {
         "category_name": "Location",
@@ -267,6 +278,7 @@ const data = [
     "name": "Teknologiporten NTNU",
     "description": "Teknologiporten NTNU er en studentorganisasjon som tilbyr workshops, kurs og arrangementer innen teknologi og innovasjon for studenter ved NTNU.",
     "link": "https://www.teknologiporten.no",
+    "accentColor": "#082437",
     "categories": [
       {
         "category_name": "Location",
