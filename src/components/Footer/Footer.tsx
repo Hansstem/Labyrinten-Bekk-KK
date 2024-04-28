@@ -8,8 +8,7 @@ const Footer: React.FC = () => {
       <div className={styles.footerContent}>
         <div className={styles.links}>
           <a href="/about">Om oss</a>
-          <a href="/privacy">Bli med på rulling</a>
-          <a href="/contact">Add oss på snap</a>
+          <a href="/contact">Ta kontakt</a>
         </div>
         <div className={styles.copyRight}>
           © {new Date().getFullYear()} Laget med ❤️️ av KometKameratene.
