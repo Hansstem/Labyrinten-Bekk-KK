@@ -28,25 +28,25 @@ export default function VervCard({
   const navigate = useNavigate();
   return (
     <Card className="max-w-md rounded-xl overflow-hidden shadow-lg flex flex-col justify-between h-full">
-  <CardHeader>
-    <img
-      src={"/public/logos/" + logo}
-      alt="Logo"
-      className="rounded-t-lg object-contain h-20 self-baseline"
-    />
-  </CardHeader>
-  <CardContent className="text-left">
-    <CardTitle className="pb-4">{name}</CardTitle>
-    <CardDescription>{description}</CardDescription>
-  </CardContent>
-  
-  <Button
-    onClick={() => navigate(link)}
-    className="mb-0 mt-auto flex self-stretch rounded-b-lg justify-center"
-    style={{ backgroundColor: accentColor }}
-  >
-    Vis mer om vervet
-  </Button>
-</Card>
+      <CardHeader>
+        <img
+          src={"/logos/" + logo}
+          alt="Logo"
+          className="rounded-t-lg object-contain h-20 self-baseline"
+        />
+      </CardHeader>
+      <CardContent className="text-left">
+        <CardTitle className="pb-4">{name}</CardTitle>
+        <CardDescription>{description}</CardDescription>
+      </CardContent>
+
+      <Button
+        onClick={() => navigate(link)}
+        className="mb-0 mt-auto flex self-stretch rounded-b-lg justify-center"
+        style={{ backgroundColor: accentColor }}
+      >
+        Vis mer om vervet
+      </Button>
+    </Card>
   );
 }
