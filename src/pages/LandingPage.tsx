@@ -10,39 +10,11 @@ import {
 } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import frontIllustration from "../assets/frontIllustration.svg";
-import pils from "../assets/trott.png";
 
 export default function LandingPage() {
   const navigate = useNavigate();
   return (
     <div className="container mx-auto p-10">
-      {/* START køddekort */}
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-6">
-        <div className="flex-1">
-          <Card className="flex p-8 shadow-lg rounded-2xl">
-            <h1 className="text-6xl">
-              <span className="text-red-500">K</span>
-              <span className="text-orange-500">o</span>
-              <span className="text-yellow-500">m</span>
-              <span className="text-green-500">p</span>
-              <span className="text-blue-500">l</span>
-              <span className="text-indigo-500">e</span>
-              <span className="text-purple-500">t</span>
-              <span className="text-pink-500">t</span>
-              <span className="text-red-500"> </span>
-              <span className="text-orange-500">s</span>
-              <span className="text-yellow-500">p</span>
-              <span className="text-green-500">i</span>
-              <span className="text-blue-500">l</span>
-              <span className="text-indigo-500">l</span>
-              <span className="text-purple-500">e</span>
-              <span className="text-pink-500">r</span>
-              <span className="text-red-500">.</span>
-            </h1>
-          </Card>
-        </div>
-      </div>
-      {/* END køddekort */}
       {/* Main Feature Card */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex-1">
@@ -60,8 +32,8 @@ export default function LandingPage() {
               </CardHeader>
               <CardContent className="text-left">
                 <p>
-                  Bla igjennom alle verv tiljengelige på ditt studiested, og
-                  filtrer på arbeidsmengde, oppgaver og fagområde
+                  Bla igjennom alle tilgjengelige verv på ditt studiested, og
+                  filtrer på arbeidsmengde, oppgaver og fagområde.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end pt-32">
@@ -137,7 +109,7 @@ export default function LandingPage() {
           <CardHeader>
             <CardTitle>Er du en studentorganisasjon?</CardTitle>
             <CardDescription>
-              Kontakt oss for å få lagt til din organisasjon på VervMeg
+              Kontakt oss for å få lagt til din organisasjon på VervMeg!
             </CardDescription>
           </CardHeader>
         </Card>
