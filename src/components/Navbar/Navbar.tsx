@@ -21,7 +21,7 @@ function Navbar() {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-white/70 backdrop-blur-md py-6 pl-7.5 flex justify-start items-center gap-96">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-white/70 backdrop-blur-md py-6 px-7.5 flex justify-between items-center">
       <Link to="/" className="text-2xl font-sans h-2 mb-10">
         <img className="max-h-16 pl-6" src={Logo} alt="logo" />
       </Link>
@@ -40,16 +40,16 @@ function Navbar() {
         </li>
         <li onClick={removeActive}>
           <Link to="/" className="text-xl no-underline text-black">
-            Registrer Verv
+            Match meg
           </Link>
         </li>
         <li onClick={removeActive}>
           <Link to="/" className="text-xl no-underline text-black">
-            Match meg
+            Kontakt Oss
           </Link>
         </li>
       </ul>
-      <div className="flex-grow-0 pl-10">
+      <div className="w-32 pl-4">
         {!showAvatar && ( // Render the login button only if showAvatar is false
           <Button
             className="flex no-underline self-end rounded-md hover:bg-transparent/15 px-4 py-2 border border-black hover:border-transparent transition duration-300 hover:text-black"
@@ -59,7 +59,7 @@ function Navbar() {
           </Button>
         )}
         {showAvatar && ( // Conditionally render Avatar component based on showAvatar state
-          <Avatar className="flex no-underline self-end items-center size-10">
+          <Avatar className="flex no-underline self-end items-center size-10 ">
             <AvatarImage src="https://github.com/shadcn.png" />
             <AvatarFallback></AvatarFallback>
           </Avatar>
