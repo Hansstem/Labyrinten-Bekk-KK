@@ -18,11 +18,27 @@ export default function LandingPage() {
     <div className="container mx-auto p-10">
       {/* START køddekort */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-6">
-        
         <div className="flex-1">
           <Card className="flex p-8 shadow-lg rounded-2xl">
-            <img className="w-fulllg:w-1/3" src={pils} alt="Front Illustration" />
-            
+            <h1 className="text-6xl">
+              <span className="text-red-500">K</span>
+              <span className="text-orange-500">o</span>
+              <span className="text-yellow-500">m</span>
+              <span className="text-green-500">p</span>
+              <span className="text-blue-500">l</span>
+              <span className="text-indigo-500">e</span>
+              <span className="text-purple-500">t</span>
+              <span className="text-pink-500">t</span>
+              <span className="text-red-500"> </span>
+              <span className="text-orange-500">s</span>
+              <span className="text-yellow-500">p</span>
+              <span className="text-green-500">i</span>
+              <span className="text-blue-500">l</span>
+              <span className="text-indigo-500">l</span>
+              <span className="text-purple-500">e</span>
+              <span className="text-pink-500">r</span>
+              <span className="text-red-500">.</span>
+            </h1>
           </Card>
         </div>
       </div>
